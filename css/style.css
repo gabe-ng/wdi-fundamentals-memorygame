@@ -85,16 +85,16 @@ footer p {
 }
 
 .message {
-	float:right;
+	float: right;
 }
 
 .clearfix:after {
-visibility: hidden;
-display: block;
-content: " ";
-clear: both;
-height: 0;
-font-size: 0;
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
 }
 
 .name {
@@ -102,4 +102,16 @@ font-size: 0;
 	font-weight: 700;
 }
 
+#reset {
+	text-transform: uppercase;
+	font-family: "Raleway";
+	color: #00A6B3;
+	float: right;
+	padding: 10px 0 0 0;
+	cursor: pointer;
+	border-bottom: 2px solid transparent;
+}
 
+#reset:hover {
+	border-color: #00A6B3;
+}
